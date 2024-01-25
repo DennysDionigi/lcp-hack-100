@@ -1,2 +1,2 @@
-# lcp-hack-100
-Basic LCP Hack
+# dynamic-lcp-preload
+Dynamic LCP solution
