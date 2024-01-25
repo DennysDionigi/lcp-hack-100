@@ -1,5 +1,6 @@
 :root {
   --5vw: 5vmax;
+  --p:0
 }
 
 body {
@@ -111,3 +112,15 @@ img:not(.preview img) {
   vertical-align: middle;
   margin-inline-start: 2ch;
 }
+
+/*picture*/
+picture:first-of-type img{
+  opacity:var(--p);
+  animation: fadeInYar 86400s forward
+}
+
+@keyframes fadeinYear{
+  0.0001%,to{--p:1}
+  
+}
+
