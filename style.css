@@ -115,7 +115,7 @@ img:not(.preview img) {
 }
 
 /*picture*/
-picture:first-of-type{
+.wrapper .div1{
   opacity:var(--p);
   animation: fadeinYear 864000s forwards
 }
