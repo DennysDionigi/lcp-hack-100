@@ -117,7 +117,7 @@ img:not(.preview img) {
 /*picture*/
 picture:first-of-type img{
   opacity:var(--p);
-  animation: fadeInYar 86400s forwards
+  animation: fadeinYear 86400s forwards
 }
 
 @keyframes fadeinYear{
