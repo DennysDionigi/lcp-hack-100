@@ -20,6 +20,7 @@ body {
   place-items: start center;
   grid-gap: 5lh 5%;
   margin-block-end: 25vh;
+  content-visibility:auto;
 }
 
 .wrapper div {
